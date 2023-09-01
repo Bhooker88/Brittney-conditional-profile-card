@@ -90,10 +90,10 @@ function render(variables = {}) {
           <h2>${roleDropDown}</h2>
           <h3>${cityDropDown} ${countryDropDown}</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="${twitterLink}"><i class="fa-brands fa-square-twitter fa-xl"></i></i></a></li>
-            <li><a href="${gitHub}"><i class="fab fa-github fa-xl"></i></a></li>
-            <li><a href="${linkedIn}"><i class="fab fa-linkedin fa-xl"></i></a></li>
-            <li><a href="${instaGram}"><i class="fab fa-instagram fa-xl"></i></a></li>
+            <li><a href="${twitterLink}"><i class="fa-brands fa-square-twitter fa-xl fa-bounce"></i></i></a></li>
+            <li><a href="${gitHub}"><i class="fab fa-github fa-xl fa-bounce"></i></a></li>
+            <li><a href="${linkedIn}"><i class="fab fa-linkedin fa-xl fa-bounce"></i></a></li>
+            <li><a href="${instaGram}"><i class="fab fa-instagram fa-xl fa-bounce"></i></a></li>
           </ul>
         </div>
     `;
@@ -109,7 +109,8 @@ window.onload = function() {
     // this is the url of the image that will used as background for the profile cover
     background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL:
+      "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
